@@ -14,7 +14,7 @@
 
   body img {
     width: 100%;
-    height: auto;
+    height: 50%;
   }
 
   .frase h1 {
@@ -39,20 +39,8 @@
     color: var(--light-grey);
 }
 
-#timer, #img-foguete {
-  display: flex;
-  flex-direction: row;
-
-}
-
-#img-foguete img {
-  max-width: 607px;
-  max-height: 435px;
-  width: 100%;
-  position: absolute;
-  bottom: 100px;
-  left: 750px;
-  
+#img-foguete {
+  display: none;
 }
 
 .text {
