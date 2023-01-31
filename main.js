@@ -4,7 +4,7 @@ const minsEl = document.getElementById("mins");
 const secondsEl = document.getElementById("seconds");
 
 function countdown() {
-    const lancamentoDate = new Date('2022-12-24T00:00:00');
+    const lancamentoDate = new Date('2023-12-31T00:00:00');
     const currentDate = new Date();
 
     const totalSeconds = (lancamentoDate - currentDate) / 1000;
